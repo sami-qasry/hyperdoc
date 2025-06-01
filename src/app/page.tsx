@@ -12,7 +12,7 @@ export default function Home() {
         className="max-w-4xl mx-auto text-center"
       >
         <h1 className="text-4xl md:text-6xl font-bold mb-6">
-          Hello, I'm{" "}
+          Hello, I&apos;m{" "}
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
             Sami EL-QASRY
           </span>
@@ -21,9 +21,9 @@ export default function Home() {
           Software Engineering Student at ENSET Mohammedia, Morocco
         </h2>
         <p className="text-lg text-gray-700 dark:text-gray-300 mb-12 leading-relaxed">
-          I'm passionate about building modern web applications and exploring
-          new technologies. Currently focused on web development, cloud
-          computing, and artificial intelligence.
+          I&apos;m passionate about building modern web applications and
+          exploring new technologies. Currently focused on web development,
+          cloud computing, and artificial intelligence.
         </p>
 
         <motion.div
