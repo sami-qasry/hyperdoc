@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
           <div className="flex space-x-6">
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/sami-el-qasry-7bb4a8245/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors"
@@ -29,7 +29,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/sami-qasry"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors"
@@ -44,7 +44,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="mailto:contact@example.com"
+              href="mailto:samielqasry2004@gmail.com"
               className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors"
             >
               <span className="sr-only">Email</span>

@@ -3,20 +3,26 @@ import { motion } from "framer-motion";
 
 export default function Education() {
   const education = [
-    {
-      school: "ENSET Mohammedia",
-      degree: "Software Engineering",
-      years: "2023 - Present",
-      description:
-        "Focusing on software development, algorithms, and system design.",
-    },
-    {
-      school: "Previous School Name",
-      degree: "High School Diploma",
-      years: "2020 - 2023",
-      description: "Scientific track with emphasis on mathematics and physics.",
-    },
-  ];
+  {
+    school: "ENSET Mohammedia, Morocco",
+    degree: "Software Engineering and Distributed Information Systems (GLSID)",
+    years: "2023 - Present",
+    description: "Focused on advanced software development, system architecture, and distributed information systems.",
+  },
+  {
+    school: "BTS Taounate, Morocco",
+    degree: "Higher Technician Diploma in Information Systems Development (DSI)",
+    years: "2021 - 2023",
+    description: "Training in database management, application development, and information systems analysis.",
+  },
+  {
+    school: "High School Al Wahda, Taounate, Morocco",
+    degree: "Baccalaureate in Physical Sciences",
+    years: "2020 - 2021",
+    description: "Scientific track with a focus on mathematics, physics, and chemistry.",
+  }
+];
+
 
   return (
     <div className="container mx-auto px-4 py-16">
