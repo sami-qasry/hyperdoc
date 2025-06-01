@@ -14,25 +14,45 @@ export default function Projects() {
     {
       title: "Portfolio Website",
       description:
-        "A modern portfolio website built with Next.js and Tailwind CSS, featuring smooth animations and responsive design.",
+        "A modern and responsive portfolio website to showcase my projects, experience, and skills. Built with performance and design in mind.",
       techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-      github: "https://github.com/yourusername/portfolio",
+      github: "https://github.com/yourusername/portfolio", // Remplace par ton lien
     },
     {
-      title: "E-commerce Platform",
+      title: "Provincial Directorate Management App",
       description:
-        "Full-stack e-commerce solution with user authentication, product management, and payment integration.",
-      techStack: ["React", "Node.js", "MongoDB", "Stripe"],
-      github: "https://github.com/yourusername/ecommerce",
+        "A hybrid desktop and web application for managing inventory and administrative data of the Provincial Directorate in Taounate.",
+      techStack: ["VB.NET", "MySQL", "HTML", "CSS"],
+      github: "",
     },
     {
-      title: "Task Management App",
+      title: "Medical Office Management System",
       description:
-        "A collaborative task management application with real-time updates and team features.",
-      techStack: ["Vue.js", "Firebase", "Tailwind CSS"],
-      github: "https://github.com/yourusername/task-manager",
+        "A web application for automating appointments, patient records, and administrative workflows in a private clinic.",
+      techStack: ["PHP", "MySQL", "Bootstrap", "JavaScript"],
+      github: "",
     },
-    // Add more projects as needed
+    {
+      title: "Transportation Management Web App",
+      description:
+        "Developed as an intern at FikraLabs, this app enables managing drivers, trips, and vehicles efficiently with an intuitive UI.",
+      techStack: ["Next.js", "Tailwind CSS", "TypeScript", "Spring Boot"],
+      github: "",
+    },
+    {
+      title: "AI-Powered Chatbot",
+      description:
+        "A chatbot application that uses OpenAI's GPT-3 to provide intelligent responses and assist users with various queries.",
+      techStack: ["Node.js", "Express", "OpenAI API", "Socket.IO"],
+      github: "",
+    },
+    {
+      title: "Student Project Supervision Platform",
+      description:
+        "Internal tool used to supervise and evaluate final year projects, including task tracking, report uploads, and feedback system.",
+      techStack: ["React", "Node.js", "MongoDB"],
+      github: "",
+    },
   ];
 
   return (
