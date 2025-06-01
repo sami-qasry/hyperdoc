@@ -11,29 +11,44 @@ type Experience = {
 
 export default function Experience() {
   const experiences: Experience[] = [
-    {
-      title: "Software Engineering Intern",
-      company: "Tech Company",
-      location: "Casablanca, Morocco",
-      period: "June 2025 - Present",
-      description: [
-        "Developed and maintained web applications using React and Node.js",
-        "Collaborated with team members using Agile methodologies",
-        "Implemented responsive designs and improved user experience",
-      ],
-    },
-    {
-      title: "Web Development Project",
-      company: "University Project",
-      location: "ENSET Mohammedia",
-      period: "January 2025 - May 2025",
-      description: [
-        "Led a team of 4 students in developing a full-stack web application",
-        "Implemented user authentication and authorization",
-        "Created RESTful APIs and integrated with frontend",
-      ],
-    },
-  ];
+  {
+    title: "First-Year Internship BTS",
+    company: "Provincial Directorate",
+    location: "Taounate, Morocco",
+    period: "2021 - 2022",
+    description: [
+      "Creation of a desktop application and a website for the management of the provincial directorate and inventory.",
+    ],
+  },
+  {
+    title: "Second-Year Internship BTS",
+    company: "ELOUE Media",
+    location: "Rabat, Morocco",
+    period: "2022 - 2023",
+    description: [
+      "Development of a web application for managing a medical office, aimed at improving administrative efficiency and the quality of patient care through centralized and automated management.",
+    ],
+  },
+  {
+    title: "First-Year Internship ENSET",
+    company: "FikraLabs",
+    location: "Agadir, Morocco",
+    period: "2024",
+    description: [
+      "Web developer with experience in building management applications.",
+      "Developed a transportation management app with intuitive interfaces for a seamless user experience.",
+    ],
+  },
+  {
+    title: "Educational Support - Final Year Project",
+    company: "-",
+    location: "-",
+    period: "2024",
+    description: [
+      "Guided a student through their final year project by providing technical and methodological support.",
+    ],
+  },
+];
 
   return (
     <div className="container mx-auto px-4 py-16">
